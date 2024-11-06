@@ -1,0 +1,124 @@
+* {box-sizing:border-box}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 10px;
+  color: rgb(245, 193, 162);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(17,94,97,0.2);;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgb(17,94,97);
+  color:white;
+}
+
+/* Caption text */
+.text a {
+  background-color: rgb(14, 90, 102);
+  padding:1%;
+  position: absolute;
+  bottom: 8px;
+  margin-left:25%;
+  margin-bottom: 3%;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.5 vw;
+  color:#f2f2f2;
+}
+
+
+.text a:hover{
+   background-color:rgb(15, 163, 183);
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.girlbg{
+  width: 42%;
+  height: inherit;
+  position: absolute;
+  bottom:-.5%;
+  right:0%;
+}
+
+.thinkinggirl {
+  position: absolute;
+  right:5%;
+  bottom:0;
+  width:30%;
+  transition: 1s;
+}
+
+.thinkinggirl:hover{
+  width:32%;
+  right:4%;
+}
+
+.thinktext,.thinkbox{
+  animation-name: thinkboxanime;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes thinkboxanime {
+  0%{
+      width:20%;
+  }
+  15%{
+      width:19%;
+  }
+  30%{
+      width:20%;
+  }
+  60%{
+      width: 19%;
+  }
+  90%{
+      width: 20.5%;
+  }
+  100%{width: 20%;}
+}

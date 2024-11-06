@@ -1,0 +1,392 @@
+# Webalizer V2.23-08 Incremental Data - 11/04/2024 14:10:55
+2024 11 4 14 10 55
+348 0 54 0 5 35 260760 327 156 0
+12 1 19 1 4
+163 0 129585 19 157 66
+140 0 103350 18 135 65
+28 0 14310 15 22 13
+17 0 13515 12 13 12
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+30 0 15900 29
+16 0 12720 16
+18 0 14310 18
+22 0 17490 22
+14 0 11130 14
+28 0 22260 27
+18 0 14310 17
+14 0 11130 14
+23 0 18285 22
+23 0 18285 19
+12 0 9540 10
+11 0 8745 8
+8 0 6360 7
+9 0 7155 9
+14 0 11130 12
+11 0 8745 11
+5 0 3975 5
+4 0 3180 4
+11 0 8745 9
+8 0 6360 8
+20 0 15900 18
+1 0 795 1
+10 0 0 10
+18 0 14310 17
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+348
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+# End Of Table - urls
+# -sites- (monthly)
+43.133.66.151
+0 1 0 795 1 1730526885
+-
+43.135.181.13
+0 1 0 795 1 1730526086
+-
+85.209.11.20
+0 249 0 197955 97 1730579404
+-
+5.255.105.229
+0 2 0 1590 2 1730548452
+-
+ip2.ip-135-148-195.us
+0 1 0 795 1 1730438115
+-
+ec2-13-60-5-88.eu-north-1.compute.amazonaws.com
+0 1 0 795 1 1730518273
+-
+43.159.63.75
+0 3 0 2385 3 1730613162
+-
+93.158.90.33
+0 1 0 795 1 1730470161
+-
+217.114.43.60
+0 1 0 795 1 1730562031
+-
+205.169.39.156
+0 1 0 795 1 1730468315
+-
+139.59.44.46
+0 1 0 795 1 1730613039
+-
+43.133.38.182
+0 1 0 795 1 1730667020
+-
+43.157.40.112
+0 1 0 795 1 1730623200
+-
+150.109.16.20
+0 1 0 795 1 1730529005
+-
+129.176.72.34.bc.googleusercontent.com
+0 1 0 795 1 1730468279
+-
+43.133.77.208
+0 1 0 795 1 1730698918
+-
+crawl-66-249-77-165.googlebot.com
+0 1 0 795 1 1730716858
+-
+20.191.253.234
+0 10 0 0 1 1730673280
+-
+129.226.158.26
+0 1 0 795 1 1730709299
+-
+170.106.159.160
+0 1 0 795 1 1730504768
+-
+43.163.1.85
+0 1 0 795 1 1730709951
+-
+vmi1963981.contaboserver.net
+0 1 0 795 1 1730667344
+-
+ec2-54-185-183-194.us-west-2.compute.amazonaws.com
+0 1 0 795 1 1730655987
+-
+43.128.110.17
+0 1 0 795 1 1730689762
+-
+43.130.31.48
+0 1 0 795 1 1730612497
+-
+43.131.62.4
+0 1 0 795 1 1730439903
+-
+43.133.72.69
+0 1 0 795 1 1730677955
+-
+43.135.149.154
+0 1 0 795 1 1730666631
+-
+43.130.39.101
+0 1 0 795 1 1730699556
+-
+43.163.0.99
+0 2 0 1590 2 1730656126
+-
+43.153.110.177
+0 1 0 795 1 1730590359
+-
+43.163.3.58
+0 1 0 795 1 1730440601
+-
+crawl-66-249-77-166.googlebot.com
+0 1 0 795 0 0
+-
+43.156.156.96
+0 1 0 795 1 1730723115
+-
+43.163.8.148
+0 1 0 795 1 1730504334
+-
+v2637316.hosted-by-vdsina.ru
+0 1 0 795 1 1730705822
+-
+129.226.147.7
+0 1 0 795 1 1730493632
+-
+134.209.144.44
+0 1 0 795 1 1730441791
+-
+170.106.82.193
+0 3 0 2385 3 1730591217
+-
+20.98.104.241
+0 4 0 3180 3 1730703712
+-
+93.158.90.36
+0 1 0 795 0 0
+-
+server65.hostingraja.org
+0 18 0 14310 0 0
+-
+150.109.13.194
+0 1 0 795 1 1730537256
+-
+43.135.133.194
+0 1 0 795 1 1730432348
+-
+136-63-13-172.googlefiber.net
+0 1 0 795 1 1730565320
+-
+43.159.128.172
+0 1 0 795 1 1730677162
+-
+vmd150063.contaboserver.net
+0 1 0 795 1 1730498253
+-
+205.169.39.2
+0 1 0 795 1 1730528464
+-
+43.131.249.153
+0 3 0 2385 3 1730624050
+-
+20.37.204.132
+0 10 0 0 1 1730506522
+-
+162.221.206.110
+0 1 0 795 0 0
+-
+43.134.66.205
+0 1 0 795 1 1730591004
+-
+141.98.133.186
+0 1 0 795 1 1730709669
+-
+150.109.253.34
+0 1 0 795 1 1730560819
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+43.133.77.208
+0 1 0 795 1 1730698918
+-
+crawl-66-249-77-165.googlebot.com
+0 1 0 795 1 1730716858
+-
+129.226.158.26
+0 1 0 795 1 1730709299
+-
+43.163.1.85
+0 1 0 795 1 1730709951
+-
+43.128.110.17
+0 1 0 795 1 1730689762
+-
+43.130.39.101
+0 1 0 795 1 1730699556
+-
+crawl-66-249-77-166.googlebot.com
+0 1 0 795 0 0
+-
+43.156.156.96
+0 1 0 795 1 1730723115
+-
+v2637316.hosted-by-vdsina.ru
+0 1 0 795 1 1730705822
+-
+20.98.104.241
+0 4 0 3180 3 1730703712
+-
+server65.hostingraja.org
+0 3 0 2385 0 0
+-
+141.98.133.186
+0 1 0 795 1 1730709669
+-
+# End Of Table - sites (daily)
+# -referrers- 
+http://yoycapital.com/archivarix.cms.php
+0 1
+- (Direct Request)
+0 93
+https://yoycapital.com/contact
+0 1
+http://yoycapital.com/
+0 252
+https://yoycapital.com/about
+0 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 10.0.0; Win64; x64; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.62 Chrome/124.0.6367.6
+0 16
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4590.2 Mobile Safari/537.36 C
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64)AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+0 17
+Mozilla/5.0 (Windows NT 10.0.0; Win64; x64; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.63 Chrome/124.0.6367.6
+0 19
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.69 Mobile 
+0 1
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.71 Safari/534.24
+0 4
+Go-http-client/1.1
+0 1
+Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.92 Safari/537.36
+0 14
+Mozilla/5.0 (Windows NT 10.0.0; Win64; x64; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.91 Chrome/124.0.6367.9
+0 18
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.61 Chrome/124.0.6367.61 
+0 21
+python-requests/2.32.3
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E14
+0 36
+Mozilla/5.0 (Windows NT 10.0.0; Win64; x64; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.61 Chrome/124.0.6367.6
+0 17
+Mozilla/5.0 (Windows NT 15.0.0; Win64; x64; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.60 Chrome/124.0.6367.6
+0 17
+Mozilla/5.0 (Windows NT 10.0.0; Win64; x64; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.60 Chrome/124.0.6367.6
+0 14
+Mozilla/5.0 (Windows NT 10.0.0; Win64; x64; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.119 Chrome/124.0.6367.
+0 21
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/92.0.4515.159 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0.0; Win64; x64; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.93 Chrome/124.0.6367.9
+0 21
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+0 20
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+0 17
+Mozilla/5.0 (Windows NT 10.0.0; Win64; x64; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.78 Chrome/124.0.6367.7
+0 12
+Mozilla/5.0 (Windows NT 15.0.0; Win64; x64; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.119 Chrome/124.0.6367.
+0 26
+Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+0 2
+Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-A415F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/23.0 Chrome/115.0.0.0
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; rv:114.0) Gecko/20100101 Firefox/114.0
+0 1
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

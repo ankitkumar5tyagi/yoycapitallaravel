@@ -1,0 +1,46 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    position:relative;
+    width:80%;
+    margin:auto;
+    margin:6%;
+}
+
+
+.aboutfirst{
+    margin-right:10%;
+    text-align:justify;
+    width:50%;
+    
+    color:rgb(17,94,97)
+}
+
+.aboutsecond{
+    width:50%;
+}
+
+.aboutimg{
+    width:80%;
+    float:right;
+   
+}
+
+@media screen and (max-width: 768px) {
+   .about{
+       flex-direction:column;
+       width:90%;
+   }
+   .aboutfirst{
+       width:90%;
+   }
+   .aboutsecond{
+       width:90%;
+   }
+   .aboutimg{
+        float:none;
+        margin:2% auto;
+        border-radius:15%;
+   }
+}

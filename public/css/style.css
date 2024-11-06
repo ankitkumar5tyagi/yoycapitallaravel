@@ -1,0 +1,882 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, sans-serif;
+    
+}
+
+
+/*header----------------------------------------------------------------------*/
+
+ #contactbar {
+    background-color: rgb(17,94,97);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ #contactbar #headaddress {
+    width: 40%;
+    font-size:90%;
+    padding: 2px;
+    display: flex;
+    gap: 5px;
+    color: whitesmoke;
+    line-height: 1.2;
+}
+ #contactbar #headaddress i{
+    font-size: x-large;
+}
+ #contactbar #headmail {
+    width: 30%;
+    padding: 2px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border-left: 1px solid whitesmoke;
+   
+}
+ #contactbar #headmail i {
+    font-size:x-large;
+    color: whitesmoke;
+}
+
+ #contactbar #headmail a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 90%;
+    width: 20%
+}
+ #contactbar #social {
+    width: 15%;
+    /* justify-content: flex;
+    justify-content: flex-end; */
+    text-align: right;
+}
+
+ #contactbar #social a {
+    text-decoration: none;
+    font-size: x-large;
+    color: whitesmoke;
+    
+    
+}
+ #contactbar #social a i:hover{
+    color:orange;
+}
+
+
+ #contactbar #headquote {
+    width:15%;
+    margin-left: 5%;
+    margin-right: 10%;
+    display: flex;
+
+}
+ #contactbar #headquote a {
+    text-decoration: none;
+    color:white;
+    background-color: sandybrown;
+    font-weight: bold;
+    padding: 5%;
+
+    
+
+}
+ #contactbar #headquote a:hover 
+ #contactbar #headquote a.active {
+    background-color: white;
+    color: sandybrown;
+}
+
+#navbar {
+    position: sticky;
+    top:0;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding:10px;
+    background-color: white;
+    z-index: 9;
+    box-shadow: 2px 2px 4px #836e60;
+}
+#navbar #compname {
+    display:flex;
+    align-items: center;
+    line-height: 12px;
+    width: 45%;
+    font-size: 80%;
+    color:rgb(110, 70, 70);
+    text-shadow: 2px 2px 4px #ce7f4b;
+}
+
+
+#navbar #compname span{
+    font-size: 60%;
+}
+
+ #navbar #compname #logo{
+width: 60px;
+margin: 1%;
+}
+
+ #navbar #menubar {
+width: 50%;
+display: flex;
+justify-content: right;
+align-items: center;
+gap: 5px;
+list-style-type: none;
+padding-right: 5px;
+}
+
+
+ #navbar #menubar li{
+    margin-left:1%;
+}
+
+ #navbar #menubar li a {
+  text-decoration: none;  
+  font-weight: bold;
+  white-space: nowrap;
+  align-items: center;
+  font-size: 1.3vw;
+  color: rgb(17,94,97);
+  padding:10px;
+}
+ #navbar #menubar li a:hover, #navbar #menubar li a:focus{
+    color: white;
+    background-color: sandybrown;
+}
+
+ #navbar #sidebarbtn {
+    width:50%;
+    display: none;
+    text-align: right;
+    color:rgb(17,94,97); 
+    font-size:30px;
+    cursor:pointer;
+}
+ #navbar .hotline {
+    align-items: center;
+    color: orangered;
+    white-space: nowrap;
+    text-align: center;
+    display:flex;
+    font-size: 100%;
+    margin-left: 2%;
+    margin-right: 4%;
+    gap: 5px;
+}
+ #navbar .hotline span{
+    color:black;
+    font-size: 120%;
+}
+ #navbar .hotline #hotlineicon {
+    font-size: 200%;
+    border-radius: 50px;
+    background-color: sandybrown;
+    color:aliceblue;
+    text-align: center;
+    padding:0;
+}
+
+
+@media screen and (max-width: 768px) {
+    *{box-sizing: border-box;}
+     #contactbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center items horizontally */
+    }
+    #contactbar #headaddress{
+        width: 100%;
+        justify-content: center; /* Center items within their container */
+        text-align: center; /* Center text */
+    }
+    #contactbar #social {
+        display: none;
+    }
+
+    #contactbar #headquote {
+        display: none;
+    }
+
+    #contactbar #headmail {
+        display:none;
+    }
+
+     #navbar #menubar {
+        display: none;
+    }
+    #contactbar #headquote a {
+        padding: 2% 4%; /* Adjust padding for smaller buttons */
+    }
+    #navbar #compname {
+        width: 90%;
+    }
+
+     #navbar #sidebarbtn{display: inline}
+     #navbar .hotline {display: none;}
+}
+
+
+
+
+
+
+
+/* sidebar css ---------------------------------------------------------------*/
+.sidenav .hotline {
+    margin-top: 30%;
+    color: orangered;
+    white-space: nowrap;
+    text-align: center;
+    display:flex;
+    font-size: 100%;
+    margin-left: 2%;
+    align-items: center;
+    gap:5%;
+
+}
+.sidenav .hotline span{
+    color:black;
+    font-size: 120%;
+}
+.sidenav .hotline #hotlineicon {
+    font-size: 150%;
+    border-radius: 50px;
+    background-color: sandybrown;
+    color:aliceblue;
+    text-align: center;
+    padding:5%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index:10;
+    top: 0;
+    right: 0;
+    background-color: azure;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 15%;
+    list-style-type: none;
+    
+  }
+  
+  .sidenav a {
+    text-decoration: none;  
+    font-weight: bold;
+    white-space: nowrap;
+    align-items: center;
+    font-size: 100%;
+    color: rgb(83, 99, 47);
+    padding:5%;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: white;
+    background-color: sandybrown;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+
+
+
+
+/* whatsapp and phone button --------------------------------------------------*/
+.fixedbutton {
+    position: fixed; /* Fixes the container in place */
+    bottom: 20px; /* Distance from the bottom of the viewport */
+    right: 20px;  /* Distance from the right side of the viewport */
+    display: flex; /* Align buttons in a row */
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px; /* Space between buttons */
+    z-index: 8; /* Ensure buttons are on top of other content */
+}
+
+.fixedbutton .whatsapp,
+.fixedbutton .phone {
+    background-color: #25D366; /* Example background color for WhatsApp */
+    /* color: white; Icon color */
+    border-radius: 40%; /* Circular button */
+    padding: 5px; /* Button size */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for better visibility */
+    display: flex; /* Center icon */
+    align-items: center;
+    justify-content: center;
+    font-size: 24px; /* Icon size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth color transition */
+}
+
+.fixedbutton .phone {
+    background-color: #34b7f1; /* Example background color for Phone */
+}
+
+.fixedbutton .whatsapp:hover,
+.fixedbutton .phone:hover {
+    background-color: #128C7E; /* Darker shade on hover for WhatsApp */
+}
+
+.fixedbutton .phone:hover {
+    background-color: #007bff; /* Darker shade on hover for Phone */
+}
+
+.fixedbutton .whatsapp a,
+.fixedbutton .phone a{
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+}
+
+
+
+
+
+
+/* benefits bar-------------------------------------------------------------- */
+
+.benefitsbar{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 3% 0;
+    gap:5%;
+}
+.benefitsbar .benefit {
+    width: 26%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 50px,0px;
+}
+.benefitsbar .benefit h3{
+    color: rgb(17,94,97);
+    font-size: 110%;
+}
+.benefitsbar .benefit h3 span{
+font-size: 80%;
+color: rgb(17,94,97);
+}
+.benefitsbar .benefit i{
+    font-size: 300%;
+    color: rgb(17,94,97);
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .benefitsbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .benefitsbar .benefit{
+        width: 80%;
+        margin-bottom: 1%;
+        display: block;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+/* middle content------------------------------------------------------------ */
+.middlecontent {
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%,10%;
+    position: relative;
+    margin-top: 5%;
+    background-color: antiquewhite;
+    z-index: 1;
+}
+
+.middlecontent .part1 {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: antiquewhite;
+    z-index: 2;
+}
+
+.womanimg {
+    width: 70%;
+    border-radius: 50%;
+    animation: womanimageborder 1s alternate infinite ;
+    margin-left: 15%;
+    z-index: 4;
+}
+
+@keyframes womanimageborder {
+    from{
+        border-right: 12px solid transparent;
+        border-left: 12px solid transparent;
+    }
+    to{
+        border-left: 12px solid rgb(249,140,34);
+        border-right: 12px solid rgb(249,140,34);
+    }
+}
+
+.experience {
+    width:30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    z-index:3;
+    background-color: rgb(17,94,97);
+    text-align: center;   
+}
+
+.experience i {
+    font-size: 200%;
+    color: rgb(249,140,34);;
+}
+
+.experience #exp {
+    margin:5%;
+    font-size: 120%;
+    color: white;
+    text-shadow: 2px 2px 5px #000000b3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.middlecontent .part2 {
+    width: 50%;
+    position: relative;
+    display: block;
+}
+
+.middlecontent .part2 .serviceheading{
+    color:rgb(249,140,34);
+    text-shadow: 2px 2px 5px #000000b3;
+    font-family: 'Gill Sans MT', sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+    margin:5%;
+}
+
+.middlecontent .part2 .servicetext {
+    color: rgb(17,94,97);
+    font-weight: bold;
+    font-size: 90%;
+    text-align: justify;
+    margin:5%;
+}
+
+.titles{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:5%;
+    position: relative;
+}
+.achievements{
+    width: 30%;
+    height: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.achievements #rank {
+    background-color: rgb(17,94,97);
+    width: 100%;
+    height: 48%;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.achievements #rank h3{
+    font-size: 90%;
+}
+.achievements #rank i {
+    font-size: 150%;
+    color:rgb(249,140,34);
+}
+.result{
+    width: 50%;
+    bottom:20%;
+    color:rgb(249,140,34);
+    text-align: left;
+    font-weight: bold;
+}
+.result i {
+    font-size: 150%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .middlecontent{
+        display:flex;
+        flex-direction: column;
+    } 
+
+    .middlecontent .part1 {
+        width: 100%;
+        text-align: center;
+    }
+    .middlecontent .part2 {
+        width: 100%
+    }
+    .experience #exp{
+        font-size: small
+    }
+
+}
+
+
+
+
+ /* service content---------------------------------------------------------- */
+.services {
+    position: relative;
+    margin:5% auto;
+    width:80%;
+    text-align:justify;
+}
+
+.ourservices {
+    width: 100%;
+    text-align: center;
+    margin: 50px;
+    color: rgb(249, 140, 34);
+    font-weight: bold;
+    font-size: 300%;
+    text-shadow: 2px 2px 4px #575554;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.servicepagepara {
+    background-color:rgb(250, 235, 215);
+    border: 3px inset #007BFF;
+    border-radius:15px;
+    padding:20px;
+}
+
+.servicecontent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 5%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px 4px #575554;
+    border-radius: 10px;
+}
+
+.service {
+    position: relative;
+    width: 100%;
+    border-radius: 10px 50px 10px 50px;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+    background-color: white;
+    transition: 1s;
+    padding:10px;
+}
+
+.serviceimg {
+    border-radius: 50%;
+    width: 85%;
+    margin-bottom: 10px;
+    background-color: #97e7bb;
+    border: 2px solid rgb(249, 140, 34);
+    border-style: inset;
+}
+
+.sername {
+    font-weight: bolder;
+    color: rgb(17, 94, 97);
+    margin: 10px;
+}
+
+.service-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-wrap:wrap;
+    width: 20%;
+    position:relative;
+    margin:20px;
+}
+
+@media screen and (max-width: 768px) {
+    .servicecontent {
+        width: 95%;
+        margin:auto;
+    }
+    .service-link {
+        width: 35%;
+    }
+    .ourservices {
+        margin: 10px;
+    }
+    .services {
+        width:100%;
+    }
+    .servicepagepara {
+        width:95%;
+        margin:auto;
+        margin-bottom:2%;
+    }
+}
+
+
+
+
+
+/* Review Area ---------------------------------------------------------------*/
+.reviews {
+    margin: 150px auto;
+    width:80%;
+    position: relative;
+}
+.reviewimg {
+    float: right;
+    filter: drop-shadow(5px 5px 8px gray);
+}
+
+.reviewheading {
+    color:rgb(17,94,97);
+    text-shadow: 2px 2px 4px sandybrown;
+}
+
+.reviewscontainer {
+    width: 50%;
+    height: 295px;
+    right:0;
+    margin: 40px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.review {
+    gap:40px;
+    display:none;
+    justify-content: left;
+    align-items: center;
+    position: absolute;
+    
+}
+
+#reviewerimg{
+    width:30%;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.reviewscontainer {
+    position: relative;
+}
+
+
+
+
+
+/*Provider & Parteners ------------------------------------------------------*/
+
+.provider{
+    position:relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    width: 60%;
+    justify-content: center;
+    background-color:antiquewhite;
+    border-radius: 25px;
+    margin:40px auto;
+    animation: providers 5s ease-in-out infinite alternate;
+}
+@keyframes providers {
+    from {
+        left: -5%;
+    }
+    to {
+        left: 5%;
+    }
+    
+}
+#provider{
+    width:16%;
+    border-radius: 50%;
+    position: relative;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 2px 2px 4px gray;
+}
+#provheading{
+    color: rgb(17,94,97);
+    text-shadow:2px 2px 5px sandybrown;
+    text-align: center;
+}
+
+
+
+
+
+/* footer------------------------------------------------------------------- */
+.footer{
+    width:100%;
+    height: 300px;
+    background-color: rgb(217, 234, 189);
+    position: relative;
+}
+#footer {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    margin:0 10%;
+}
+.footercontent{
+    text-align: center;
+    width:50%;
+    color:rgb(17,94,97);
+}
+
+.footercontent #social {
+    width: 50%;
+    margin:auto;
+}
+
+ .footercontent #social a {
+    text-decoration: none;
+    font-size:xx-large;
+    color: rgb(17,94,97);
+    
+    
+}
+ .footercontent #social a i:hover{
+    color:sandybrown;
+}
+.footercontent a{
+    text-decoration: none;
+    color: rgb(17,94,97);  
+}
+.footercontent a:hover {
+    color:sandybrown;
+}
+
+.copyr {
+    width:100%;
+    height: 8vh;
+    background: rgb(17,94,97);
+    color:aliceblue;
+    text-align: center;
+    position: relative;
+}
+.copyr p {
+    font-size: small;
+    padding:10px;
+}
+.copyr p span {
+    font-size: x-small;
+}
+
+@media screen and (max-width: 768px) {
+    .reviewscontainer {
+        width: 100%;
+    }
+    .review {
+        flex-direction: column;
+        
+    }
+    .reviewimg {
+        width: 100%;
+    }
+    .provider{
+        width:90%;
+        gap:5px;
+    }
+    .footercontent{
+        width:100%;
+    }
+}
+
+
+
+/*openservices popup css------------------------------------------------------*/
+
+/* Modal Background */
+.custom-modal {
+    display: none; /* Hidden by default */
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
+    z-index: 1000; /* Above other content */
+}
+
+/* Modal Content */
+.custom-modal-content {
+    position: relative;
+    margin: 5% auto;
+    padding: 20px;
+    width: 95%;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align:justify;
+}
+
+/* Close Button */
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .custom-modal {
+    position: absolute; 
+    }
+    .custom-modal-content {
+        width:95%;
+    }
+}
