@@ -28,6 +28,7 @@
     <table>
         <thead>
             <tr>
+                <th>Sr.No</th>
                 <th>Name</th>
                 <th>Mobile</th>
                 <th>Email</th>
@@ -39,6 +40,7 @@
         <tbody>
             @foreach($data as $customer)
                 <tr>
+                    <td>{{ $customer->id }}</td> 
                     <td>{{ $customer->name }}</td> 
                     <td>{{ $customer->mobile }}</td> 
                     <td>{{ $customer->email }}</td> 
