@@ -6,7 +6,7 @@
         table {
             width: 90%;
             border-collapse: collapse; /* Merges border lines for a cleaner look */
-            margin: 20px; /* Space above the table */
+            margin: 20px auto; /* Space above the table */
         }
         th, td {
             border: 1px solid black; /* Border around cells */
@@ -23,9 +23,9 @@
 @endpush
 
 @section('content') <!-- Content section -->
-    <h1>Customers</h1>
+    <h1 style="text-align: center; padding:10px; color:rgb(15, 96, 80)">Customers</h1>
 
-    <table border=1>
+    <table>
         <thead>
             <tr>
                 <th>Name</th>
@@ -37,12 +37,12 @@
             </tr>
         </thead>
         <tbody>
-            @foreach($data as $customer) <!-- Loop through the $data array -->
+            @foreach($data as $customer)
                 <tr>
-                    <td>{{ $customer->name }}</td> <!-- Display customer name -->
-                    <td>{{ $customer->mobile }}</td> <!-- Display customer mobile -->
-                    <td>{{ $customer->email }}</td> <!-- Display customer email -->
-                    <td>{{ $customer->address }}</td> <!-- Display customer address -->
+                    <td>{{ $customer->name }}</td> 
+                    <td>{{ $customer->mobile }}</td> 
+                    <td>{{ $customer->email }}</td> 
+                    <td>{{ $customer->address }}</td> 
                     <td>{{ $customer->created_at }}</td>
                     <td>{{ $customer->updated_at }}</td>
                 </tr>
