@@ -117,9 +117,9 @@ $services = json_decode($servicesJson, true);
                             <li>Photo</li>
                             <li>Signature</li>
                             <li>Mobile Number & Email Id</li>
-                            <li>Medical Fitness Certificate (In case of age is above 40</li>
-                            <li>Old DL or DL Lost FIR (In case of Renew or Correction)</li>
-                            <li>Gazzetted Notification or News Paper Notification(In case of Name Change)</li>
+                            <li>Old PAN if Available (In case of Reissue)</li>
+                            <li>10th Marksheet / Voter Id / DL / Passport / any other for Father's Name Correction</li>
+                            <li>Marriage Certificate / Annexure A with Sign/Stamp of Gazzetted Officer for Name Correction</li>
                         </ol>
                     <p>If you are interested, You can simply whatsapp or email above documents to our Whatsapp number and email id.</p>
                 </article>
