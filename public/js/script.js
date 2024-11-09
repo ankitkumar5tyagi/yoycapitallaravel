@@ -67,26 +67,22 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-// Open Modal Function
-function openModal(element) {
-    const modalId = element.getAttribute('data-modal');
-    document.getElementById(modalId).style.display = 'block';
+function openModal(event, modalId) {
+    event.preventDefault();  // Prevent the default anchor behavior (page scroll)
+    
+    var modal = document.getElementById(modalId);
+    modal.style.display = "block";  // Show the modal
 }
 
-// Close Modal Function
 function closeModal(modalId) {
-    document.getElementById(modalId).style.display = 'none';
+    var modal = document.getElementById(modalId);
+    modal.style.display = "none";  // Hide the modal
 }
 
-// Close modal when clicking outside of it
-window.onclick = function(event) {
-    const modals = document.getElementsByClassName('custom-modal');
-    for (let i = 0; i < modals.length; i++) {
-        if (event.target === modals[i]) {
-            modals[i].style.display = 'none';
-        }
-    }
-}
+
+
+
+
 
 
 

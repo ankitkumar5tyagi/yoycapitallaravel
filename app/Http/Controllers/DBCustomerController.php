@@ -12,4 +12,20 @@ class DBCustomerController extends Controller
 
         return view ('allcustomers', ['data'=>$customers]);
     }
+
+    public function singleCustomer(string $id) {
+        $customer = DB::table('customers')->where('id', $id)->get();
+
+        
+        foreach($customer as $cust)
+        {
+            echo "Name : " . $cust->name . "<br>" . 
+            "Mobile : ". $cust->mobile . "<br>" . 
+            "Email : ". $cust->email . "<br>" . 
+            "Address : " . $cust->address . "<br>" .
+            "Created At : " . $cust->created_at . "<br>" .
+            "Updated At : " . $cust->updated_at;
+        }
+
+    }
 }

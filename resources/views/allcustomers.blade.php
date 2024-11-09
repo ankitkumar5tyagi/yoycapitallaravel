@@ -33,20 +33,17 @@
                 <th>Mobile</th>
                 <th>Email</th>
                 <th>Address</th>
-                <th>Created at</th>
-                <th>Updated at</th>
             </tr>
         </thead>
         <tbody>
             @foreach($data as $customer)
                 <tr>
                     <td>{{ $customer->id }}</td> 
-                    <td>{{ $customer->name }}</td> 
+                    <td><a style="color:rgb(68, 109, 100); text-decoration: none;" href="{{ route('view.customer', $customer->id)}}">{{ $customer->name }}</td> 
                     <td>{{ $customer->mobile }}</td> 
                     <td>{{ $customer->email }}</td> 
                     <td>{{ $customer->address }}</td> 
-                    <td>{{ $customer->created_at }}</td>
-                    <td>{{ $customer->updated_at }}</td>
+                    
                 </tr>
             @endforeach
         </tbody>
