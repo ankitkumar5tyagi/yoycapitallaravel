@@ -29,7 +29,7 @@
     <table>
         <thead>
             <tr>
-                <th>Sr.No</th>
+                <th>Customer ID</th>
                 <th>Name</th>
                 <th>Mobile</th>
                 <th>Email</th>
