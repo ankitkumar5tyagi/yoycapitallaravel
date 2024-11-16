@@ -3,8 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ContactController;
-use App\Http\Controllers\openServiceController;
-use App\Http\Controllers\DBCustomerController;
+use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\ServiceController;
 
 Route::get('/about',[PageController::class, 'showAbout'])->name('about');
@@ -19,24 +18,18 @@ Route::get('/services',[ServiceController::class, 'showServices'])->name('servic
 
 Route::get('/',[PageController::class, 'showHome'])->name('home');
 
-Route::get('/example', function () {
-    return view('example');
-})->name('example');
 
 
-
-// Route::Fallback(function(){
-//     return view('home');
-// });
+Route::Fallback(function(){
+    return ('404 Error : Sorry this page is not available');
+});
 
 
 
 Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
 
 
-Route::get('/openservice', [openServiceController::class, 'openservice']);
+Route::get('/customers', [CustomerController::class, 'showCustomer']);
 
-Route::get('/customers', [DBCustomerController::class, 'showCustomer']);
-
-Route::get('/customer/{id}', [DBCustomerController::class, 'singleCustomer'])->name('view.customer');
+Route::get('/customer/{id}', [CustomerController::class, 'singleCustomer'])->name('view.customer');
 

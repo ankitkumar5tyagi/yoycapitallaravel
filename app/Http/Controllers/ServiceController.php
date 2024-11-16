@@ -12,6 +12,7 @@ class ServiceController extends controller
     {
         $services = DB::table('services')->get();
 
-        return view('/services', ['services'=>$services]);
+        return view('services', ['services'=>$services]);
     }
+
 }
