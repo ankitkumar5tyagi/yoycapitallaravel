@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
 
-class ServiceController extends controller
+class ServiceController extends Controller
 {
     public function showServices()
     {
