@@ -28,4 +28,25 @@ class CustomerController extends Controller
         }
 
     }
+    public function addCustomer (Request $req){
+        $customer = DB::table('customers')
+                    ->insert([
+                     'name'=>$req->cname,
+                     'mobile'=>$req->cmobile,
+                     'email'=>$req->cemail,
+                     'address'=>$req->caddress
+                    ]);
+        if($customer) {
+           return redirect('/customers');
+        }
+    }
+
+    public function deleteCustomer(string $id) {
+        $customer = DB::table('customers')
+                    ->where('id', $id)
+                    ->delete();
+    if($customer) {
+        return redirect('/customers');
+        }
+    }
 }

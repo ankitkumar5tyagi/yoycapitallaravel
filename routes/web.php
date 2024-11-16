@@ -33,3 +33,6 @@ Route::get('/customers', [CustomerController::class, 'showCustomer']);
 
 Route::get('/customer/{id}', [CustomerController::class, 'singleCustomer'])->name('view.customer');
 
+Route::view('/customerform', 'customerform');
+Route::post('/addcustomer', [CustomerController::class, 'addCustomer']);
+Route::get('/deletecustomer/{id}', [CustomerController::class, 'deleteCustomer'])->name('deletecustomer');

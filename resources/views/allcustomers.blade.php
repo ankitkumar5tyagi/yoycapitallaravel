@@ -24,6 +24,7 @@
 
 @section('content') <!-- Content section -->
     <h1 style="text-align: center; padding:10px; color:rgb(15, 96, 80)">Customers</h1>
+    <a style="color:rgb(247, 251, 249); padding:10px; background-color:rgb(15,96,80); border: 1px solid rgb(15, 86, 54); border-radius:5%; text-decoration:none; margin-left:20%" href="/customerform">Add New</a>
 
     <table>
         <thead>
@@ -33,6 +34,7 @@
                 <th>Mobile</th>
                 <th>Email</th>
                 <th>Address</th>
+                <th>Delete</th>
             </tr>
         </thead>
         <tbody>
@@ -42,8 +44,8 @@
                     <td><a style="color:rgb(68, 109, 100); text-decoration: none;" href="{{ route('view.customer', $customer->id)}}">{{ $customer->name }}</td> 
                     <td>{{ $customer->mobile }}</td> 
                     <td>{{ $customer->email }}</td> 
-                    <td>{{ $customer->address }}</td> 
-                    
+                    <td>{{ $customer->address }}</td>
+                    <td><a style="color:rgb(247, 251, 249); padding:5px; background-color:rgb(245, 125, 155); border: 1px solid rgb(245, 125, 155); border-radius:5%; text-decoration:none; margin-left:20%" href="{{route ('deletecustomer', $customer->id)}}">Delete</a></td>
                 </tr>
             @endforeach
         </tbody>
