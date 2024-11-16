@@ -29,6 +29,12 @@ class CustomerController extends Controller
 
     }
     public function addCustomer (Request $req){
+        
+        //Mobile Validation
+       if (!preg_match('/^[0-9]{10}$/', $req->cmobile)) {
+    return back()->with('error', 'Mobile number must be exactly 10 digits, and contain only numbers (0-9).');
+       }
+
         $customer = DB::table('customers')
                     ->insert([
                      'name'=>$req->cname,

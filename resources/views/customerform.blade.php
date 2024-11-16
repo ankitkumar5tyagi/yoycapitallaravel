@@ -63,6 +63,24 @@ input[type="submit"]:focus {
 @endpush
 
 @section('content') <!-- Content section -->
+
+
+{{-- Display success message --}}
+@if (session('success'))
+<div style="color:green; text-align:center;">
+    {{ session('success') }}
+</div>
+@endif
+
+{{-- Display error message --}}
+@if (session('error'))
+<div style="color:red; text-align:center;">
+    {{ session('error') }}
+</div>
+@endif
+
+
+
 <form action="/addcustomer" method="POST">
     @csrf
 <label for="cname">Name</label>
