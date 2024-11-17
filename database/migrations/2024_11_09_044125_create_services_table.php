@@ -17,7 +17,7 @@ return new class extends Migration
             $table->text('description');
             $table->string('image_url');
             $table->text('document_list'); // comma-separated list of required documents
-            $table->string('contact_info');
+            $table->string('note');
             $table->timestamps();
         });
     }

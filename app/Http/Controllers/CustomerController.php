@@ -8,7 +8,7 @@ class CustomerController extends Controller
 {
     public function showCustomer()
     {
-        $customers = DB::table('customers')->get();
+        $customers = DB::table('customers')->paginate(25); 
 
         return view ('allcustomers', ['data'=>$customers]);
     }

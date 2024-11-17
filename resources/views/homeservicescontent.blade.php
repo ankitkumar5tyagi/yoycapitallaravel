@@ -30,7 +30,7 @@
         <div class="custom-modal-content">
             <span class="close-button" onclick="closeModal('modal{{$loop->index}}')">&times;</span>
             <article style="padding:20px">
-                <img style="float:right; width:200px; height:200px" src="/images/service1passport.png" alt="Passport">
+                <img style="float:right; width:200px; height:200px" src="{{$service->image_url}}" alt="Passport">
                 <h2 style="margin:10px">{{$service->title}}</h2>
                 <p>{{$service->description}}</p>
                 <ol style="margin:10px">

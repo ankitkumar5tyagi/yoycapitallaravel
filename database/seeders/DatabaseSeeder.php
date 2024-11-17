@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
         //     CustomerSeeder::class
         // ]);
 
-        \App\Models\service::factory(18)->create();
+        \App\Models\customer::factory(99)->create();
 
 
     
