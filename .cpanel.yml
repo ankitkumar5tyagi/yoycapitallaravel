@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/yoycapit/
+    - export DEPLOYPATH=/home/yoycapit/public_html
     
     # Copy all files and directories (including hidden ones) to the deployment path
     - /bin/cp -ru . $DEPLOYPATH
