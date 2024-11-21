@@ -39,6 +39,7 @@
             </form>
         </div>
         <div id="address">
+            <h2 style="color:coral"> Our Offices</h2>
             <div id="office">
                 <img src="/images/mahagunoffice.jpg" alt="Mahagun Mart Office Image">
                 <h4>Mahagun Mart Office <br> Office No-123, First-Floor, Mahagun Mart, Sector-16C, Gaur City-2, Greater Noida West, Gautam Buddha Nagar, UP - 201318 <br> Mobile: 8130777505</h4>
