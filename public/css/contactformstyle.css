@@ -82,7 +82,7 @@
     }
 
     #office img {
-        width:35%;
+        width:175px;
         border-radius: 15%;
     }
     #office h4 {
@@ -92,7 +92,20 @@
 
     
      @media screen and (max-width: 768px) {
-        form {
+        .container {
             width: 95%;
+        }
+        #container {
+            flex-direction: column;
+        }
+        #address {
+            flex-direction: column;
+            width:95%;
+        }
+        #office {
+            flex-direction: column;
+        }
+        #office h4 {
+            text-align: center;
         }
     }
