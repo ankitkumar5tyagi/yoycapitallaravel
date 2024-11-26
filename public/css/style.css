@@ -7,7 +7,12 @@
 
 html, body {
     font-family: Arial, sans-serif;
+    overflow-x:hidden;
     
+}
+
+.main {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
 }
 
 
@@ -89,8 +94,8 @@ html, body {
     
 
 }
- #contactbar #headquote a:hover 
- #contactbar #headquote a.active {
+ #contactbar #headquote a:hover,
+ .active {
     background-color: white;
     color: sandybrown;
 }
@@ -361,7 +366,7 @@ padding-right: 5px;
     justify-content: center;
     align-items: center;
     position: relative;
-    margin: 3% 0;
+    margin: 5% 3%;
     gap:5%;
 }
 .benefitsbar .benefit {
@@ -369,7 +374,7 @@ padding-right: 5px;
     display: flex;
     justify-content: space-between;
     gap: 5px;
-    padding: 50px,0px;
+    padding: 50px 0;
 }
 .benefitsbar .benefit h3{
     color: rgb(17,94,97);
@@ -405,14 +410,12 @@ color: rgb(17,94,97);
 
 /* middle content------------------------------------------------------------ */
 .middlecontent {
-    width:100%;
+    width:80%;
     display:flex;
     justify-content: center;
     align-items: center;
-    margin: 0%,10%;
+    margin: 5% auto;
     position: relative;
-    margin-top: 5%;
-    background-color: antiquewhite;
     z-index: 1;
 }
 
@@ -422,7 +425,6 @@ color: rgb(17,94,97);
     justify-content: space-between;
     align-items: center;
     position: relative;
-    background-color: antiquewhite;
     z-index: 2;
 }
 
@@ -700,7 +702,7 @@ color: rgb(17,94,97);
 }
 
 #reviewerimg{
-    width:30%;
+    width:50%;
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
