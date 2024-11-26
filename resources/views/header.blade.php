@@ -20,8 +20,8 @@
         </div>
         <div id="navbar">
             <div id="compname">
-                <img id="logo" src="./images/logo.png" alt="YOY Capital">
-                <h1>YOY Capital <span><br>Infra Pvt. Ltd. (OPC)</span><h1>
+                <img id="logo" src="./images/yoylogo.png" alt="YOY Capital">
+                <h1>YOY Capital <span><br>Infra Pvt. Ltd. (OPC)</span></h1>
             </div>
             <nav id="menubar">
                     <li><a href="{{ route ('home') }}">Home</a></li>
@@ -36,5 +36,7 @@
            
             <div id="sidebarbtn">
                 <span onclick="openNav()">&#9776;</span>
-            </div>   
+            </div>
+            <path class="learnworlds-divider-fill js-learnworlds-divider-fill" d="M1236 155C876 365 285 420 0 420V468.5H1236V155Z"></path>
+ 
         </div>

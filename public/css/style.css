@@ -6,13 +6,15 @@
 }
 
 html, body {
-    font-family: Arial, sans-serif;
-    overflow-x:hidden;
-    
+    font-family: Arial, sans-serif; 
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .main {
-    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    background: linear-gradient(to right, #e8e7e6, #8d8259);
 }
 
 
@@ -108,9 +110,7 @@ html, body {
     width: 100%;
     align-items: center;
     padding:10px;
-    background-color: white;
     z-index: 9;
-    box-shadow: 2px 2px 4px #836e60;
 }
 #navbar #compname {
     display:flex;
@@ -152,7 +152,7 @@ padding-right: 5px;
   font-weight: bold;
   white-space: nowrap;
   align-items: center;
-  font-size: 1.3vw;
+  font-size: 1.1vw;
   color: rgb(17,94,97);
   padding:10px;
 }
@@ -361,20 +361,19 @@ padding-right: 5px;
 /* benefits bar-------------------------------------------------------------- */
 
 .benefitsbar{
-    width:100%;
+    width:80%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    margin: 5% 3%;
-    gap:5%;
+    margin: 5% auto;
+    gap:8%;
 }
 .benefitsbar .benefit {
     width: 26%;
     display: flex;
     justify-content: space-between;
     gap: 5px;
-    padding: 50px 0;
 }
 .benefitsbar .benefit h3{
     color: rgb(17,94,97);

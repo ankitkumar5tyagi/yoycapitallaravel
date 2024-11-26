@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"rel="stylesheet"/>
     <title>@yield('title')</title>
     <link rel="icon" type="image/png" href="./images/titlelogoicon.png">
-    <!-- Google tag (gtag.js) -->
+   
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-V8ZT14LQRX"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -27,19 +27,19 @@
 </head>
     <body>
         <div class="main">
-            <!-- header -->
+           
             @include ('header')
             @include('responsivesidebar')
                     
 
-            <!--dynamic pages-->
+           
             <main>
-            @yield('content') <!-- Yahaan page-specific content aayega -->
+            @yield('content')
             </main>
             
 
 
-           <!-- footer -->
+
             @include('footer')
 
 
@@ -47,7 +47,7 @@
 
 
 
-            <!-- Whatsapp and Phone Button -->
+         
             <div class="fixedbutton">
                 <div class="whatsapp"><a href="https://wa.me/9839193311"><i class="ri-whatsapp-line"></i></a></div>
                 <div class="phone"><a href="tel:9839193311"><i class="ri-phone-line"></i></a></div>

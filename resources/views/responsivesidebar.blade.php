@@ -1,4 +1,4 @@
-<!-- Responsive Side Bar -->
+
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <li><a href="{{ route ('home') }}">Home</a></li>
@@ -7,7 +7,7 @@
                     <li><a href="{{ route('contact') }}">Contact Us</a></li>
                     
                     
-<!-- Side Bar Hotline Number -->
+
                     
                     <div class="hotline">
                         <i id="hotlineicon" class="ri-phone-line"></i>

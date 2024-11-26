@@ -68,7 +68,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: #fff;
+        background: linear-gradient(to bottom, #daf5ea, #ccd0c8);
         border-radius: 5px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
         padding:5px;
@@ -87,7 +87,7 @@
         border-radius: 15%;
     }
     #office h4 {
-        color:cadetblue;
+        color:rgb(17,94,97);
         margin: 2%;
     }
 

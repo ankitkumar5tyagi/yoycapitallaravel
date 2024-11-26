@@ -73,3 +73,40 @@ if (!sessionStorage.getItem('animationRan')) {
         }
     });
     
+    gsap.to('#navbar',{
+      backgroundColor:'white',
+      opacity: 0.9,
+      scrollTrigger: {
+        trigger: "#navbar",
+        scroller: "body",
+        start: "top 0",
+        end: "top 0",
+        toggleActions: "play none none reverse",
+    }
+    })
+
+    gsap.from(".container", {
+        x:100,
+        duration:1,
+        opacity:0,
+        
+    });
+    
+    gsap.from("#address", {
+        x:-100,
+        duration:1,
+        opacity:0,
+    });
+
+    gsap.from(".aboutfirst", {
+        x:100,
+        duration:1,
+        opacity:0,
+        
+    });
+    
+    gsap.from(".aboutimg", {
+        x:-100,
+        duration:1,
+        opacity:0,
+    });
