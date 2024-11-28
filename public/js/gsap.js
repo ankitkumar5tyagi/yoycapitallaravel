@@ -110,3 +110,15 @@ if (!sessionStorage.getItem('animationRan')) {
         duration:1,
         opacity:0,
     });
+
+    gsap.from(".fade", {
+        x:100,
+        duration:1,
+        opacity:0,
+    });
+    
+    gsap.from(".text-container", {
+        x:-100,
+        duration:1,
+        opacity:0,
+    });

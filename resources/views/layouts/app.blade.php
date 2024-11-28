@@ -7,7 +7,8 @@
     
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/slideshow.css') }}">
-    
+    @stack('css')
+    @stack('customertablecss')
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"rel="stylesheet"/>
     <title>@yield('title')</title>
     <link rel="icon" type="image/png" href="./images/titlelogoicon.png">
@@ -20,8 +21,7 @@
 
   gtag('config', 'G-V8ZT14LQRX');
 </script>
-@stack('css')
-    @stack('customertablecss')
+
 
 
 </head>

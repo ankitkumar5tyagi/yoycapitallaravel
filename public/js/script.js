@@ -33,7 +33,7 @@ function showreview() {
     const reviews = document.querySelectorAll('.review');
     let currentReviewIndex = 0;
 
-    console.log("Total reviews:", reviews.length); // Debugging
+    console.log("Total reviews:", reviews.length); 
 
     function showReview(index) {
         reviews.forEach((review, i) => {
@@ -44,7 +44,7 @@ function showreview() {
     function cycleReviews() {
         currentReviewIndex = (currentReviewIndex + 1) % reviews.length;
         showReview(currentReviewIndex);
-        console.log("Current review index:", currentReviewIndex); // Debugging
+        console.log("Current review index:", currentReviewIndex); 
     }
 
     showReview(0);
@@ -68,15 +68,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 function openModal(event, modalId) {
-    event.preventDefault();  // Prevent the default anchor behavior (page scroll)
+    event.preventDefault();  
     
     var modal = document.getElementById(modalId);
-    modal.style.display = "block";  // Show the modal
+    modal.style.display = "block";  
 }
 
 function closeModal(modalId) {
     var modal = document.getElementById(modalId);
-    modal.style.display = "none";  // Hide the modal
+    modal.style.display = "none";
 }
 
 

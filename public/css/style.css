@@ -118,7 +118,7 @@ body {
     line-height: 12px;
     width: 45%;
     font-size: 80%;
-    color:rgb(110, 70, 70);
+    color:rgb(190, 75, 6);
     text-shadow: 2px 2px 4px #ce7f4b;
 }
 
@@ -152,7 +152,7 @@ padding-right: 5px;
   font-weight: bold;
   white-space: nowrap;
   align-items: center;
-  font-size: 1.1vw;
+  font-size: 1.2vw;
   color: rgb(17,94,97);
   padding:10px;
 }
@@ -171,7 +171,7 @@ padding-right: 5px;
 }
  #navbar .hotline {
     align-items: center;
-    color: orangered;
+    color: rgb(247, 198, 181);
     white-space: nowrap;
     text-align: center;
     display:flex;
@@ -185,7 +185,7 @@ padding-right: 5px;
     font-size: 120%;
 }
  #navbar .hotline #hotlineicon {
-    font-size: 200%;
+    font-size: 250%;
     border-radius: 50px;
     background-color: sandybrown;
     color:aliceblue;
@@ -701,7 +701,7 @@ color: rgb(17,94,97);
 }
 
 #reviewerimg{
-    width:50%;
+    width:35%;
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -723,7 +723,7 @@ color: rgb(17,94,97);
     margin: auto;
     width: 60%;
     justify-content: center;
-    background-color:antiquewhite;
+    background-color:#d5ddc8;
     border-radius: 25px;
     margin:40px auto;
     animation: providers 5s ease-in-out infinite alternate;
