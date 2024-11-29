@@ -16,7 +16,7 @@
             
                     
                     <div class="mySlides">
-                        <img class="fade" src="./images/img2.png" style="width:50%; border-radius:50%">
+                        <img class="fade" src="./images/img2.png" style="width:50%; border-radius:50%; opacity:1">
                         <div class="text-container">
                             <h1><b>One Place For Many Services!</b></h1>
                             <h2>Documentation & Certificates</h2>
@@ -25,21 +25,21 @@
             
                     
                     <div class="mySlides">
-                        <img class="fade" src="./images/img4.png" style="width:50%; border-radius:50%">
+                        <img class="fade" src="./images/img4.png" style="width:50%; border-radius:50%; opacity:1">
                         <div class="text-container">
                             <h1><b>One Place For Many Services!</b></h1>
                             <h2>GST And Income Tax Services</h2>
                         </div>
                     </div>
                     <div class="mySlides">
-                        <img class="fade" src="./images/img5.jpg" style="width:50%; border-radius:50%">
+                        <img class="fade" src="./images/img5.jpg" style="width:50%; border-radius:50%; opacity:1">
                         <div class="text-container">
                             <h1><b>One Place For Many Services!</b></h1>
                             <h2>Stocks & Mutual Fuds Investment</h2>
                         </div>
                     </div>
                     <div class="mySlides">
-                        <img class="fade" src="./images/img6.png" style="width:50%; border-radius:50%">
+                        <img class="fade" src="./images/img6.png" style="width:50%; border-radius:50%; opacity:1">
                         <div class="text-container">
                             <h1><b>One Place For Many Services!</b></h1>
                             <h2>Courier & Cargo Services</h2>
@@ -47,7 +47,7 @@
                     </div>
 
                     <div class="mySlides">
-                        <img class="fade" src="./images/img3.png" style="width:50%; border-radius:50%">
+                        <img class="fade" src="./images/img3.png" style="width:50%; border-radius:50%; opacity:1">
                         <div class="text-container">
                             <h1><b>One Place For Many Services!</b></h1>
                             <h2>Best Customer Service</h2>
