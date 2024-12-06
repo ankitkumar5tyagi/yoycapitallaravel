@@ -9,8 +9,10 @@
 @section('content')
     <div id="container">
         <div class="container">
-            <h1>Send a message to us!</h1>
-            @if (session('success'))
+            <form action="{{ route('contact.submit') }}" method="POST">
+                <h1>Send a message to us!</h1>
+                @csrf 
+                @if (session('success'))
                 <div style="color:green; text-align:center;">
                     {{ session('success') }}
                 </div>
@@ -20,8 +22,6 @@
                     {{ session('error') }}
                 </div>
             @endif
-            <form action="{{ route('contact.submit') }}" method="POST">
-                @csrf 
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required placeholder="Your Name">
                 

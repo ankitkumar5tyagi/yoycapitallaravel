@@ -18,6 +18,10 @@ img {vertical-align: middle;}
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color:azure;
 }
+.text-container p{
+    font-weight:100;
+    color: azure;
+}
 
 .mySlides {
   position: relative;

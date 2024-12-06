@@ -96,10 +96,9 @@ body {
     
 
 }
- #contactbar #headquote a:hover,
- .active {
-    background-color: white;
+ #contactbar #headquote a:hover {
     color: sandybrown;
+    background-color: white;
 }
 
 #navbar {
@@ -156,9 +155,10 @@ padding-right: 5px;
   color: rgb(17,94,97);
   padding:10px;
 }
- #navbar #menubar li a:hover, #navbar #menubar li a:focus{
+ #navbar #menubar li a:hover, #navbar #menubar li a.active{
     color: white;
     background-color: sandybrown;
+    border-radius: 5px;
 }
 
  #navbar #sidebarbtn {
@@ -171,7 +171,8 @@ padding-right: 5px;
 }
  #navbar .hotline {
     align-items: center;
-    color: rgb(247, 198, 181);
+    color:rgb(190, 75, 6);
+    text-shadow: 2px 2px 4px #ce7f4b;
     white-space: nowrap;
     text-align: center;
     display:flex;
@@ -184,14 +185,23 @@ padding-right: 5px;
     color:black;
     font-size: 120%;
 }
+
+
  #navbar .hotline #hotlineicon {
-    font-size: 250%;
+    font-size: 200%;
     border-radius: 50px;
     background-color: sandybrown;
     color:aliceblue;
     text-align: center;
-    padding:0;
+    padding:5px;
+    text-decoration:none;
 }
+#navbar .hotline #hotlineicon:hover {
+    background-color: white;
+    color: sandybrown;
+    cursor: pointer;
+}
+
 
 
 @media screen and (max-width: 768px) {
@@ -255,8 +265,9 @@ padding-right: 5px;
     color:black;
     font-size: 120%;
 }
+
 .sidenav .hotline #hotlineicon {
-    font-size: 150%;
+    font-size: 200%;
     border-radius: 50px;
     background-color: sandybrown;
     color:aliceblue;
@@ -288,9 +299,10 @@ padding-right: 5px;
     color: rgb(83, 99, 47);
     padding:5%;
     display: block;
+    border-radius:15px;
   }
   
-  .sidenav a:hover {
+  .sidenav a:hover, .sidenav a.active {
     color: white;
     background-color: sandybrown;
   }
