@@ -3,7 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ContactController;
-use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\ServiceController;
 
 Route::get('/about',[PageController::class, 'showAbout'])->name('about');
@@ -28,11 +27,4 @@ Route::Fallback(function(){
 
 Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
 
-
-Route::get('/customers', [CustomerController::class, 'showCustomer']);
-
-Route::get('/customer/{id}', [CustomerController::class, 'singleCustomer'])->name('view.customer');
-
-Route::view('/customerform', 'customerform');
-Route::post('/addcustomer', [CustomerController::class, 'addCustomer']);
-Route::get('/deletecustomer/{id}', [CustomerController::class, 'deleteCustomer'])->name('deletecustomer');
+Route::resource('serviceadmin', ServiceController::class);
